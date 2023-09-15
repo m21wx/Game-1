@@ -166,13 +166,19 @@ body{
 footer{
     background-color: #0000009c;
     height: 80px;
+    width:100%;
     margin: 10px 0;
     text-align: center;
     line-height: 77px;
     font-size: 30px;
     color: #fff;
 }
-
+@media(max-width:600px){
+ footer{
+    height: 80px;
+    width:100%;
+}
+}
 
 
 
